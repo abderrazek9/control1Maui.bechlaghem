@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="control1.bravo"
+             Title="bravo">
+
+    <StackLayout Spacing="50" 
+                 BackgroundColor="Chocolate" 
+                 Orientation="Vertical"
+                 HorizontalOptions="FillAndExpand"
+                 VerticalOptions="FillAndExpand">
+
+        <Label Text="       Bravo...!" 
+               Margin="0,50,0,0"
+               WidthRequest="300"
+               FontSize="Header" 
+               TextColor="White" 
+               VerticalOptions="Center"
+               HorizontalOptions="Center" 
+               BackgroundColor="DarkGreen" />
+
+        <Label x:Name="l" 
+               WidthRequest="300"
+               Text="nombre de fois"
+               FontSize="Medium"
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               BackgroundColor="DarkGreen"/>
+
+        <Button Text="reteur"
+                WidthRequest="150"
+                Clicked="Button_Clicked"
+                FontSize="Medium" 
+                TextColor="White" 
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                BackgroundColor="DarkOrange"/>
+
+    </StackLayout>
+
+</ContentPage>

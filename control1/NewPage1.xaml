@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="control1.NewPage1"
+             Title="NewPage1">
+
+    <StackLayout Spacing="50"
+              BackgroundColor="Chocolate" 
+              Orientation="Vertical" 
+              HorizontalOptions="FillAndExpand"
+              VerticalOptions="FillAndExpand">
+
+        <Label  TextColor="Black"
+             Text="    Hello...!" 
+             WidthRequest="200"
+             FontAttributes="Italic"
+             BackgroundColor="DarkSeaGreen" 
+             Margin="0,50,0,0"
+             FontSize="40"
+             VerticalOptions="Center" 
+             HorizontalOptions="Center" />
+
+        <Entry x:Name="mdp"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            WidthRequest="200"
+            Placeholder="saiser mot de pass "/>
+
+        <Button Text="valider" 
+             WidthRequest="200"
+             BackgroundColor="DarkRed"
+             Clicked="Button_Clicked_1"/>
+
+    </StackLayout>
+    
+</ContentPage>
